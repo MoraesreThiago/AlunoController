@@ -15,7 +15,7 @@ namespace AlunoController.Controllers
                 return BadRequest(ModelState);
             }
 
-            // Lógica para salvar o aluno no banco de dados aqui...
+            
 
             return Ok("Aluno criado com sucesso!");
         }
